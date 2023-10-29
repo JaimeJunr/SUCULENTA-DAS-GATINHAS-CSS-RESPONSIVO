@@ -79,6 +79,12 @@ header input:focus-visible{
     border-radius: 4px;
 }
 
+.about h2{
+    border-bottom: 1px solid var(--color4);
+    margin: 8px;
+    margin-bottom: 16px;
+    padding-bottom: 4px;
+}
 
 .about img{
     width: 100%;
@@ -181,12 +187,13 @@ footer span{
 
     .new, .promotion{
         display: grid;
-        grid-template-columns: repeat(3, 32.6%);
+        grid-template-columns: repeat(2, 49%);
         row-gap: 1%;
         column-gap: 1%;
     }
 
 }
+
 
 /*laptop*/
 @media screen and (min-width: 1024px){
@@ -248,6 +255,10 @@ footer span{
         margin: 16px 8px;
         border: 1px solid rgb(0,0,0, 0.2);
         border-radius: 4px;
+
+    }
+
+    .about div{
         display: flex;
     }
 
@@ -259,7 +270,7 @@ footer span{
 
     .new, .promotion{
         display: grid;
-        grid-template-columns: repeat(3, 32.6%);
+        grid-template-columns: repeat(4, 24.25%);
         row-gap: 1%;
         column-gap: 1%;
     }
